@@ -1,0 +1,65 @@
+/*
+Theme Name: Worthy - Free Powerful Theme by HtmlCoder
+Author:HtmlCoder
+Author URI:http://www.htmlcoder.me
+Version:1.0.0
+Created:November 2014
+License: Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
+File Description: Place here your custom CSS styles
+*/
+
+
+/* === Header Menu === */
+.fixed-header-on .header{
+    background-color: #07CC98;
+}
+
+#navbar-collapse-1 ul li a{
+    mso-bidi-font-weight: 400;
+    mso-ansi-font-weight: 400;
+    font-weight: 400;
+}
+
+.site-name a{
+    color: #3198E7;
+}
+
+/*---- site header on scroll ----*/
+.fixed-header-on .header, .fixed-header-on .site-name a, .fixed-header-on .logo {
+    color: #696969 !important;
+}
+
+.fixed-header-on .active, .fixed-header-on a:hover{
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
+}
+
+
+/* === Accordion === */
+.panel-heading a.collapsed{
+
+}
+
+/*---- Time Table ----*/
+
+#timetable{
+    text-transform: uppercase;
+}
+
+.timetable-container{
+    padding-top: 10px;
+}
+
+.time-right{
+    float: left;
+}
+
+.time-right{
+    float: right;
+}
+
+/* === Google Map === */
+.gmap{
+    padding: 0 20px;
+}
+
+
